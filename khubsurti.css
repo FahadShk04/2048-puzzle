@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+    
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap; /*iska mtlb hai ki agar flex items ek line m adjust nahi huwe toh usko dusre line m adjust karde like a paragraph*/
+}
+
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x2{
+    background-color: #eee4da;  /*color of the background of small boxes*/
+    color:#727371;            /*color of number inside box*/
+}
+
+.x4{
+    background-color: #ece0ca;  /*color of the background of small boxes*/
+    color:#727371;            /*color of number inside box*/
+}
+
+.x8{
+    background-color: #f4b17a;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x16{
+    background-color: #f59575;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x32{
+    background-color: #f57c5f;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x64{
+    background-color: #f65d3b;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x128{
+    background-color: #edce71;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x256{
+    background-color: #edcc63;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x512{
+    background-color: #edc651;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x1024{
+    background-color: #eec744;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x2048{
+    background-color: #ecc230;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x4096{
+    background-color: #fe3d3d;  /*color of the background of small boxes*/
+    color:white;            /*color of number inside box*/
+}
+
+.x8192{
+    background-color: #ff2020;  /*color of the background of small boxes*/
+    color:white;                /*color of numberinsidebox*/
+}
